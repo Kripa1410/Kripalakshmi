@@ -1,6 +1,9 @@
 body {
   font-family: 'Raleway', sans-serif;
   background: #31d5c6;
+  background-image: url("http://www.kabu-load.net/data/out/22/IMG_835027.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
 }
 
@@ -10,7 +13,7 @@ body {
 
 /*NAVBAR*/
 .navbar {
-  background-color: #31d5c6;
+  background-color: #37c7e7;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -19,10 +22,14 @@ body {
 }
 
 .navbar a {
-  font-weight: 200;
+  font-weight: 600;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.navbar a:hover{
+  background-color: #3197b6;
 }
 
 .anchor {
@@ -143,10 +150,15 @@ h2 {
 }
 
 .content-body {
+
   line-height: 1.5;
   color: rgba(0,0,0,.75);
 }
 
+
+.content-body a:hover{
+  background-color: #3197b6;
+}
 /*EDUCATION*/
 .card {
   display: flex;
@@ -284,6 +296,8 @@ h4 {
 
 .container1 {
   position: relative;
+  margin-top: 1.5mm;
+  margin-left: 1mm;
   width: 100%;
 }
 
@@ -333,6 +347,7 @@ h4 {
   }
 
   .image1{
-    display: none !important;
+    display: block;
+    margin-top: 150%;
   }
 }
